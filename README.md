@@ -63,30 +63,36 @@
 └─ vercel.json           # Vercel config
 ```
 
-
-
 ```bash
 git clone https://github.com/ismail-la/Portfolio-Nextjs-AI.git
 cd Portfolio-Nextjs-AI
 ```
 
 1. **Clone the repo:**
+
    ```bash
    git clone https://github.com/ismail-la/Portfolio-Nextjs-AI.git
    cd Portfolio-Nextjs-AI
    ```
 
-2.Install dependencies:
+2. **Install dependencies:**
+
+```bash
 npm install
+```
 
-3.Set up environment variables:
+3. **Set up environment variables:**
 
+```bash
 Copy .env.example to .env and fill in your API keys.
 4.Run locally:
 npm run dev
+```
 
-5.Deploy:
+5. **Deploy to Vercel:**
 
 Push to GitHub and connect to Vercel for instant deployment.
-📬 Contact
+
+## 📬 Contact
+
 Feel free to reach out via LinkedIn or use the contact form on the website!
