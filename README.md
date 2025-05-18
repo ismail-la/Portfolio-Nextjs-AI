@@ -77,21 +77,25 @@ cd Portfolio-Nextjs-AI
 
 2. **Install dependencies:**
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. **Set up environment variables:**
 
+   ```bash
+   Copy .env.example to .env and fill in your API keys.
+   ```
+
+4.**Run locally:**
+
 ```bash
-Copy .env.example to .env and fill in your API keys.
-4.Run locally:
 npm run dev
 ```
 
 5. **Deploy to Vercel:**
 
-Push to GitHub and connect to Vercel for instant deployment.
+   Push to GitHub and connect to Vercel for instant deployment.
 
 ## 📬 Contact
 
