@@ -87,11 +87,11 @@ cd Portfolio-Nextjs-AI
    Copy .env.example to .env and fill in your API keys.
    ```
 
-4.**Run locally:**
+4. **Run locally:**
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 5. **Deploy to Vercel:**
 
