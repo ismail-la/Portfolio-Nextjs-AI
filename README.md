@@ -42,10 +42,28 @@
 ## 📁 Folder Structure
 
 ```text
-/ ├─ app/ # Next.js App Router │ ├─ layout.tsx │ └─ page.tsx ├─ components/ │ ├─ Navbar.tsx │ ├─ HeroSection.tsx │ ├─ SkillsSection.tsx │ ├─ ProjectsSection.tsx │ ├─ ExperienceSection.tsx │ ├─ AboutSection.tsx │ ├─ ContactSection.tsx │ └─ ChatWidget.tsx ├─ lib/ │ └─ constants.ts ├─ public/ # Static assets (images, etc.) ├─ styles/ # Tailwind + shadcn config │ └─ tailwind.config.js └─ vercel.json # Vercel config
+/
+├─ app/                  # Next.js App Router
+│  ├─ layout.tsx
+│  └─ page.tsx
+├─ components/
+│  ├─ Navbar.tsx
+│  ├─ HeroSection.tsx
+│  ├─ SkillsSection.tsx
+│  ├─ ProjectsSection.tsx
+│  ├─ ExperienceSection.tsx
+│  ├─ AboutSection.tsx
+│  ├─ ContactSection.tsx
+│  └─ ChatWidget.tsx
+├─ lib/
+│  └─ constants.ts
+├─ public/               # Static assets (images, etc.)
+├─ styles/               # Tailwind + shadcn config
+│  └─ tailwind.config.js
+└─ vercel.json           # Vercel config
 ```
 
----
+
 
 ```bash
 git clone https://github.com/ismail-la/Portfolio-Nextjs-AI.git
