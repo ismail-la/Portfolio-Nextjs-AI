@@ -63,11 +63,6 @@
 └─ vercel.json           # Vercel config
 ```
 
-```bash
-git clone https://github.com/ismail-la/Portfolio-Nextjs-AI.git
-cd Portfolio-Nextjs-AI
-```
-
 1. **Clone the repo:**
 
    ```bash

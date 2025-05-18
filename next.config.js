@@ -11,7 +11,6 @@ const nextConfig = {
     return config;
   },
   // Force Next.js to use the WASM version of SWC
-  swcMinify: true,
   experimental: {
     swcTraceProfiling: false,
     forceSwcTransforms: true,
