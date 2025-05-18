@@ -125,71 +125,11 @@ export const projects = [
     ],
     challenges:
       "Faced API quota limitations and resolved it by switching to OpenAI's free-tier API for chatbot functionality. Integrated it seamlessly using serverless Next.js API routes with error handling and fallback messaging.",
-    image:
-      "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    liveUrl: "https://your-portfolio-url.com",
-    repoUrl: "https://github.com/yourusername/portfolio",
+    image: "/portfolio.png",
+    liveUrl: "https://ismail-lahbari.vercel.app/",
+    repoUrl: "https://github.com/ismail-la/Portfolio-Nextjs-AI",
   },
-  {
-    id: 2,
-    title: "Financial Dashboard",
-    description:
-      "An interactive dashboard for tracking investments, expenses, and financial goals with data visualization.",
-    longDescription:
-      "Developed a comprehensive financial analytics platform that helps users track their investments, expenses, and savings goals. Features include interactive charts, real-time data updates, and personalized financial insights.",
-    technologies: [
-      "React",
-      "TypeScript",
-      "D3.js",
-      "Express",
-      "MongoDB",
-      "Docker",
-    ],
-    features: [
-      "Real-time portfolio tracking and performance metrics",
-      "Expense categorization and budget management",
-      "Goal setting and progress visualization",
-      "Custom date range reporting",
-      "Data export and PDF generation",
-    ],
-    challenges:
-      "Visualizing complex financial data in an intuitive way was particularly challenging. We implemented custom D3.js visualizations with interactive tooltips to make the data more accessible.",
-    image:
-      "https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    liveUrl: "https://finance-example.com",
-    repoUrl: "https://github.com/yourusername/finance-dashboard",
-  },
-  {
-    id: 3,
-    title: "DevOps Automation Suite",
-    description:
-      "A collection of tools for automating CI/CD pipelines, infrastructure provisioning, and monitoring.",
-    longDescription:
-      "Created a suite of DevOps tools that streamline the deployment process, from code commit to production. The solution includes automated testing, infrastructure provisioning, and comprehensive monitoring.",
-    technologies: [
-      "Go",
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "AWS",
-      "Prometheus",
-      "Grafana",
-    ],
-    features: [
-      "One-click environment provisioning",
-      "Automated CI/CD pipeline integration",
-      "Infrastructure as Code templates",
-      "Real-time monitoring and alerting",
-      "Centralized logging and error tracking",
-      "Cost optimization recommendations",
-    ],
-    challenges:
-      "Balancing flexibility with ease of use was the main challenge. We solved this by creating a modular system where teams could adopt components incrementally.",
-    image:
-      "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    liveUrl: "https://devops-example.com",
-    repoUrl: "https://github.com/yourusername/devops-automation",
-  },
+
   {
     id: 5,
     title: "Personal AI Assistant",
@@ -280,6 +220,66 @@ export const projects = [
       "https://images.pexels.com/photos/12935041/pexels-photo-12935041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     liveUrl: "", // No live demo, leave empty
     repoUrl: "https://github.com/ismail-la/POS-App",
+  },
+  {
+    id: 2,
+    title: "Financial Dashboard",
+    description:
+      "An interactive dashboard for tracking investments, expenses, and financial goals with data visualization.",
+    longDescription:
+      "Developed a comprehensive financial analytics platform that helps users track their investments, expenses, and savings goals. Features include interactive charts, real-time data updates, and personalized financial insights.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "D3.js",
+      "Express",
+      "MongoDB",
+      "Docker",
+    ],
+    features: [
+      "Real-time portfolio tracking and performance metrics",
+      "Expense categorization and budget management",
+      "Goal setting and progress visualization",
+      "Custom date range reporting",
+      "Data export and PDF generation",
+    ],
+    challenges:
+      "Visualizing complex financial data in an intuitive way was particularly challenging. We implemented custom D3.js visualizations with interactive tooltips to make the data more accessible.",
+    image:
+      "https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    liveUrl: "",
+    repoUrl: "",
+  },
+  {
+    id: 3,
+    title: "DevOps Automation Suite",
+    description:
+      "A collection of tools for automating CI/CD pipelines, infrastructure provisioning, and monitoring.",
+    longDescription:
+      "Created a suite of DevOps tools that streamline the deployment process, from code commit to production. The solution includes automated testing, infrastructure provisioning, and comprehensive monitoring.",
+    technologies: [
+      "Go",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Prometheus",
+      "Grafana",
+    ],
+    features: [
+      "One-click environment provisioning",
+      "Automated CI/CD pipeline integration",
+      "Infrastructure as Code templates",
+      "Real-time monitoring and alerting",
+      "Centralized logging and error tracking",
+      "Cost optimization recommendations",
+    ],
+    challenges:
+      "Balancing flexibility with ease of use was the main challenge. We solved this by creating a modular system where teams could adopt components incrementally.",
+    image:
+      "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    liveUrl: "", // No live demo, leave empty
+    repoUrl: "",
   },
 ];
 

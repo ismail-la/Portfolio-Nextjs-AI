@@ -63,7 +63,6 @@
 └─ vercel.json           # Vercel config
 ```
 
-
 1. **Clone the repo:**
 
    ```bash
