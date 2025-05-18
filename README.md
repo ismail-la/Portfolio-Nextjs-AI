@@ -1,4 +1,5 @@
 # ismail-lahbari Portfolio
+
 <!-- cSpell:ignore lahbari -->
 
 🚀 **Personal portfolio website** built with Next.js, TypeScript, Tailwind CSS, shadcn/ui, and an AI-powered chatbot. Showcasing my projects, skills, experience, and contact—all in a modern, responsive design.
@@ -10,6 +11,7 @@
 ---
 
 ## ✨ Features
+
 - **Modern Tech Stack:** Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui
 <!-- cSpell:ignore shadcn -->
 - **Modern Tech Stack:** Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui
@@ -26,6 +28,7 @@
 ---
 
 ## 🛠️ Tech Stack
+
 - **Styling/UI:** Tailwind CSS, shadcn/ui
 <!-- cSpell:ignore shadcn -->
 - **Framework:** Next.js (latest), TypeScript
@@ -35,22 +38,28 @@
 - **Backend:** Next.js API routes
 - **Email:** SendGrid
 - **Deployment:** Vercel
+
 ## 📁 Folder Structure
 
+```text
 / ├─ app/ # Next.js App Router │ ├─ layout.tsx │ └─ page.tsx ├─ components/ │ ├─ Navbar.tsx │ ├─ HeroSection.tsx │ ├─ SkillsSection.tsx │ ├─ ProjectsSection.tsx │ ├─ ExperienceSection.tsx │ ├─ AboutSection.tsx │ ├─ ContactSection.tsx │ └─ ChatWidget.tsx ├─ lib/ │ └─ constants.ts ├─ public/ # Static assets (images, etc.) ├─ styles/ # Tailwind + shadcn config │ └─ tailwind.config.js └─ vercel.json # Vercel config
+```
 
 ---
-   ```bash
-   git clone https://github.com/ismail-la/Portfolio-Nextjs-AI.git
-   cd Portfolio-Nextjs-AI
-   ```
+
+```bash
+git clone https://github.com/ismail-la/Portfolio-Nextjs-AI.git
+cd Portfolio-Nextjs-AI
+```
+
 1. **Clone the repo:**
    ```bash
    git clone https://github.com/ismail-la/Portfolio-Nextjs-AI.git
    cd Portfolio-Nextjs-AI
+   ```
 
 2.Install dependencies:
-   npm install
+npm install
 
 3.Set up environment variables:
 
@@ -63,4 +72,3 @@ npm run dev
 Push to GitHub and connect to Vercel for instant deployment.
 📬 Contact
 Feel free to reach out via LinkedIn or use the contact form on the website!
-
