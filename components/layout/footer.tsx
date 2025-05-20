@@ -74,7 +74,9 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Lahbari ismail. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
