@@ -278,8 +278,8 @@ export const projects = [
       "Balancing flexibility with ease of use was the main challenge. We solved this by creating a modular system where teams could adopt components incrementally.",
     image:
       "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    liveUrl: "", // No live demo, leave empty
-    repoUrl: "",
+    liveUrl: "https://devops-automation-suite.vercel.app/", // No live demo, leave empty
+    repoUrl: "https://github.com/ismail-la/DevOps-Automation-Suite-Demo",
   },
 ];
 

@@ -1,7 +1,19 @@
+"use client"; // Add this at the top
+
+// Import useState and useEffect
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { socialLinks } from "@/lib/constants";
 
 export function Footer() {
+  // Use state to store the year
+  const [year, setYear] = useState("");
+
+  // Update year on client side only
+  useEffect(() => {
+    setYear(new Date().getFullYear().toString());
+  }, []);
+
   return (
     <footer className="border-t bg-muted/40">
       <div className="container py-12">
@@ -74,9 +86,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t text-center text-sm text-muted-foreground">
-          <p>
-            © {new Date().getFullYear()} Lahbari ismail. All rights reserved.
-          </p>
+          <p>© {year} Lahbari ismail. All rights reserved.</p>
         </div>
       </div>
     </footer>
